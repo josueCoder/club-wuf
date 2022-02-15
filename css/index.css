@@ -52,7 +52,8 @@ header{
 }
 
 
-.article__title,.article-adoptar__title{
+.article__title,
+.article-adoptar__title{
     font-size: 2rem;
     letter-spacing: 3px;
     text-align: center;
@@ -171,4 +172,38 @@ header{
     width: 100%;
     border-radius: 50% ;
     
+}
+.razones-adoptar{
+    background-color: #f7cd32;
+
+}
+.razones-adoptar___title{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+.razones-adoptar___list-razones-container{
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+}
+.list-razones__image-razon-item{
+    list-style: none;
+    
+}
+.image-razon-item__img-container{
+    text-align: center;
+    
+    margin: 10px;
+}
+.img-container__img{
+    
+}
+.img-container__img-description{
+    font-size: 0.8rem;
+    text-align: center;
+
 }
