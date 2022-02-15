@@ -52,7 +52,7 @@ header{
 }
 
 
-.article__title{
+.article__title,.article-adoptar__title{
     font-size: 2rem;
     letter-spacing: 3px;
     text-align: center;
@@ -86,7 +86,7 @@ header{
     align-items: center;
    
 }
-.main-presentatiton-container__descripcion{
+.main-presentatiton-container__descripcion,.article-adoptar__frase{
     text-align: center;
     letter-spacing: 2px;
     
@@ -127,4 +127,48 @@ header{
 .presetation-container__button:hover{
     transform: scale(1.2);
     transition: all 0.5s;
+}
+/* article adoptar */
+
+.article-adoptar{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   
+}
+.article-adoptar__title,
+.article-adoptar__frase{
+    margin: 0;
+    padding: 0 10px;
+}
+
+.article-adoptar__pets-list-container{
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    gap:55px;
+    flex-direction: row;
+    
+}
+.pets-list-container__item-pets{
+    list-style: none;
+}
+.item-pets-content-img{
+    max-width: 200px;
+    margin: 0;
+    transition: all 0.5s;
+  
+    
+
+}
+.item-pets-content-img:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+.content-img__pet-image{
+    width: 100%;
+    border-radius: 50% ;
+    
 }
