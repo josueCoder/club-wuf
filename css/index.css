@@ -341,3 +341,10 @@ header{
     color: black;
     
 }
+@media (min-width: 854px){
+
+    .pets__pets{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
