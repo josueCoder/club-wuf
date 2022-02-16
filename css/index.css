@@ -1,8 +1,14 @@
+
+
+
+
+
 .body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
+
 header{
     
     padding:6px 12px;
@@ -233,4 +239,105 @@ header{
 .form-colabora__image{
     width: 100%;
 
+}
+/* grid */
+.pets{
+    padding: 2rem 0;
+}
+.pets-container{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+.pets__title{
+    margin: 0;
+   
+    font-size: 2rem;
+
+
+}
+.pets__pets{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+}
+.pets__pet{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 0.25rem solid #f7cd32;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+.pets__pet:hover{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.671);
+    transition: all 0.5s;
+
+}
+
+
+.pets__pet-image-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+.pets__pet-image{
+    width: 100%;
+
+}
+
+.pets__pet-description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+
+}
+.pets__pet-description-title{
+    margin: 0;
+    letter-spacing: 2px;
+}
+.pets__pet-description-about{
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    padding: 0 0.2rem;
+
+}
+.pets__pet-description-button-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap:1rem
+}
+.pets__pet-description-button{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #f7cd32;
+    border-radius: 20px;
+    transition: all 0.5s;
+    
+}
+.pets__pet-description-button--bg-black{
+    background-color: black;
+    color: #f7cd32;
+}
+.pets__pet-description-button:hover{
+    background-color: aliceblue;
+    border: solid black;
+    transition: all 0.5s;
+    color: black;
+    
 }
