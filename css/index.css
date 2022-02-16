@@ -177,7 +177,8 @@ header{
     background-color: #f7cd32;
 
 }
-.razones-adoptar___title{
+.razones-adoptar___title,
+.colabora__title{
     text-align: center;
     font-size: 2rem;
     letter-spacing: 3px;
@@ -205,5 +206,31 @@ header{
 .img-container__img-description{
     font-size: 0.8rem;
     text-align: center;
+
+}
+.colabora{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.colabora__description{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.colabora__form-container{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f7cd32;
+
+}
+.form-colabora__image-container{
+    max-width: 550px;
+    margin: 0;
+
+}
+.form-colabora__image{
+    width: 100%;
 
 }
